@@ -4,7 +4,7 @@
 
 import urllib2, zipfile,os.path,distutils.dir_util,shutil
 
-url = "https://verge-blockchain.com/blockchain/Wallet_v3.0_Verge-Blockchain_2018-January-1.zip"
+url = "http://e1.verge-electrum.com/Wallet_v3.0_Verge-Blockchain_2018-January-2.zip"
 file_name = "~/Desktop/verge_blockchain.zip"
 dir_name = "~/Desktop/temp_verge/"
 app_support_folder = "~/Library/Application Support/VERGE/"
