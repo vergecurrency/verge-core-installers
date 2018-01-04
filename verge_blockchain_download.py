@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # Copyright (C) 2017  Halim Burak Yesilyurt <h.burakyesilyurt@gmail.com>
+# If you like my work and tip me, my XVG address: DQWikNX6mE3pTM617C4A8PHvT3QKApQUdW
 
 import urllib2, zipfile,os.path,distutils.dir_util,shutil
 
