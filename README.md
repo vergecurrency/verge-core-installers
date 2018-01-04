@@ -9,7 +9,9 @@ Windows 7+ Operating System
 
 Internet connection
 #### Steps to Install Verge Wallet
-1 - You need to download and open "verge_wallet_installer.exe" executable file to run wizard.  
+1 - You need to download and open "verge_wallet_installer.exe" executable file to run wizard. 
+
+Link: https://github.com/vergecurrency/verge-core-installers/releases/download/v1.0/verge_wallet_installer.exe
 
 2 - License screen will welcome to you, you need to click "I Agree" button to go forward.
 
@@ -36,8 +38,9 @@ Internet connection
 
 #### Steps to use VERGE Blockchain Installation Python Script
 
-
 1 - Download verge_blockchain_download.py script file from this repository and copy to your Desktop folder.
+
+Link: https://github.com/vergecurrency/verge-core-installers/releases/download/v1.0/verge_blockchain_download.py
 
 2 - You need to press F4 button on your keyboard, it will open launchpad.
 
