@@ -2,6 +2,7 @@
 
 ## Getting Started
 This repository contains software and scripts that help to install VERGE Wallet Application on various operation systems.
+
 **If you have wallet data on your system, you need to backup your wallet data before starting installation!**
 ### Verge Wallet Installer (Windows)
 #### Prerequisites
