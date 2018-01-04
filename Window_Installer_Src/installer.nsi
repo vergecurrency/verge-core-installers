@@ -1,6 +1,7 @@
 ;--------------------------------
 ;VERGE Executable Installer for Wallet App
 ;Written by Halim Burak Yesilyurt - 2018 - <h.burakyesilyurt@gmail.com>
+;If you like my work and tip me, my XVG address: DQWikNX6mE3pTM617C4A8PHvT3QKApQUdW
 ;This file contains NSIS source code.
 ;--------------------------------
 ;Include Modern UI
