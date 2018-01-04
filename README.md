@@ -2,7 +2,7 @@
 
 ## Getting Started
 This repository contains software and scripts that help to install VERGE Wallet Application on various operation systems.
-
+**If you have wallet data on your system, you need to backup your wallet data before starting installation!**
 ### Verge Wallet Installer (Windows)
 #### Prerequisites
 Windows 7+ Operating System
@@ -19,7 +19,7 @@ Link: https://github.com/vergecurrency/verge-core-installers/releases/download/v
 
 4 - In this screen, you need to specify your destination folder and then you can click "Next" button.
 
-5 - In order to connect VERGE RPC server, you need to specify your password. If you have already password, you can type it into both field to go forward. You should not leave password fields empty to protect your account. After typing your password twice times, you can go forward by clicking "Next" button. 
+5 - In order to connect VERGE RPC server, you need to specify your password. If you have already password, you can type it into both field to go forward. **You should not leave password fields empty to protect your account.** After typing your password twice times, you can go forward by clicking "Next" button. 
 
 6 - In next screen, if you want to create startup folder shortcut, you can specify shortcut name. "Next" button will bring you to next screen.
 
