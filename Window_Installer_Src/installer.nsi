@@ -1,7 +1,6 @@
 ;--------------------------------
 ;VERGE Executable Installer for Wallet App
 ;Written by Halim Burak Yesilyurt - 2018 - <h.burakyesilyurt@gmail.com>
-;If you like my work and tip me, my XVG address: DQWikNX6mE3pTM617C4A8PHvT3QKApQUdW
 ;This file contains NSIS source code.
 ;--------------------------------
 ;Include Modern UI
@@ -45,8 +44,6 @@
   var p1
   var p2
 
-
- 
 ;--------------------------------
 ;Interface Settings
 
@@ -129,21 +126,10 @@ FunctionEnd
   !insertmacro MUI_UNPAGE_CONFIRM
   !insertmacro MUI_UNPAGE_INSTFILES
 
-
-
-
- 
-  
-
 ;--------------------------------
 ;Languages
  
   !insertmacro MUI_LANGUAGE "English"
-
-
-
-
-
 
 ;--------------------------------
 ;Installer Sections
@@ -174,18 +160,13 @@ Section "Verge Core Wallet" SecVERGECORE
 SectionEnd
 
 Section "Verge Blockhain" secBlockchain
- StrCpy $VergeBlockchainURL "https://verge-blockchain.com/blockchain/Wallet_v3.0_Verge-Blockchain_2018-January-2.zip"
+ StrCpy $VergeBlockchainURL "http://e1.verge-electrum.com/Wallet_v3-v4.x_Verge-Blockchain_2018-January-8.zip"
  inetc::get /POPUP "" /CAPTION "verge_blockchain.zip" $VergeBlockchainURL "$PLUGINSDIR\verge_block_chain.zip"/END
     Pop $0 # return value = exit code, "OK" if OK
     MessageBox MB_OK "Download Status: $0"
     !insertmacro ZIPDLL_EXTRACT "$PLUGINSDIR\verge_block_chain.zip" "$APPDATA\VERGE"  "<ALL>"
   
 SectionEnd
-
-
-
-
-
 
 ;--------------------------------
 ;Descriptions
