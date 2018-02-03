@@ -160,7 +160,7 @@ Section "Verge Core Wallet" SecVERGECORE
 SectionEnd
 
 Section "Verge Blockhain" secBlockchain
- StrCpy $VergeBlockchainURL "http://e1.verge-electrum.com/Wallet_v3-v4.x_Verge-Blockchain_2018-January-8.zip"
+ StrCpy $VergeBlockchainURL "https://verge-blockchain.com/blockchain/go.sh-Verge-Blockchain.zip"
  inetc::get /POPUP "" /CAPTION "verge_blockchain.zip" $VergeBlockchainURL "$PLUGINSDIR\verge_block_chain.zip"/END
     Pop $0 # return value = exit code, "OK" if OK
     MessageBox MB_OK "Download Status: $0"
