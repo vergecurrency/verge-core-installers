@@ -96,7 +96,7 @@ echo ****Downloading Verge Blockchain data****
 echo ****PLEASE BE PATIENT - THE BLOCKCHAIN DATA DOWNLOAD LARGE AND THE DOWNLOAD MAY TAKE SOME TIME DEPENDING ON YOUR INTERNET SPEEDS****
 md %TEMP%\verge
 REM powershell -Command "(New-Object Net.WebClient).DownloadFile('https://verge-blockchain.com/blockchain/go.sh-Verge-Blockchain.zip', '%TEMP%\verge\XVGBlockChain.zip')"
-powershell -Command "Invoke-WebRequest https://s1.verge-blockchain.com/Wallet_v4.x_Verge-Blockchain_2018-January-29.zip -OutFile %TEMP%\verge\XVGBlockChain.zip"
+powershell -Command "Invoke-WebRequest https://verge-blockchain.com/blockchain/go.sh-Verge-Blockchain.zip -OutFile %TEMP%\verge\XVGBlockChain.zip"
 cls
 echo ****Download complete!  Unzipping and copying the Blockchain Data****
 powershell -Command "expand-archive -literalpath %TEMP%\verge\XVGBlockChain.zip -destinationpath %TEMP%\verge\blockchain"
