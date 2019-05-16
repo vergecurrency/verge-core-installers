@@ -24,7 +24,7 @@ REM This line and the line after is included but ignored because it is slow down
 REM powershell -Command "Invoke-WebRequest https://verge-blockchain.com/blockchain5/Codebase_5.0_Verge-Blockchain_2019-April-3.zip -OutFile c:\windows\temp\verge\XVGBlockChain.zip"
 
 REM Command to download the files
-powershell Start-BitsTransfer https://verge-blockchain.com/blockchain5/Codebase_5.0_Verge-Blockchain_2019-April-3.zip c:\windows\temp\verge\XVGBlockChain.zip
+powershell Start-BitsTransfer https://verge-blockchain.com/blockchain5/QT-Wallet_v5.x_Verge-Blockchain_2019-May-15.zip c:\windows\temp\verge\XVGBlockChain.zip
 echo ****Once the download has finished the blue box with yellow text will disappear above and you will see this message, press any key to continue****
 pause
 cls
