@@ -5,7 +5,7 @@
 
 import urllib2, zipfile,os.path,distutils.dir_util,shutil
 
-url = "https://verge-blockchain.com/blockchain5/QT-Wallet_v5.x_Verge-Blockchain_2019-May-15.zip"
+url = "https://verge-blockchain.com/blockchain5/installer_blockschain_v5.zip"
 file_name = "~/Desktop/verge_blockchain.zip"
 dir_name = "~/Desktop/temp_verge/"
 app_support_folder = "~/Library/Application Support/VERGE/"
