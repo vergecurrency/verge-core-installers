@@ -5,7 +5,7 @@
 
 import urllib2, zipfile,os.path,distutils.dir_util,shutil
 
-url = "https://verge-blockchain.com/blockchain/go.sh-Verge-Blockchain.zip"
+url = "https://verge-blockchain.com/blockchain5/QT-Wallet_v5.x_Verge-Blockchain_2019-May-15.zip"
 file_name = "~/Desktop/verge_blockchain.zip"
 dir_name = "~/Desktop/temp_verge/"
 app_support_folder = "~/Library/Application Support/VERGE/"
@@ -19,7 +19,7 @@ def downloadAndSaveVergeBlockchain():
     f = open(os.path.expanduser(file_name), 'wb')
     meta = u.info()
     file_size = int(meta.getheaders("Content-Length")[0])
-    print "Downloading VERGE blockchain: %s Bytes: %s" % (os.path.expanduser(file_name), file_size)
+    print "Downloading Verge Lumos v5 blockchain: %s Bytes: %s" % (os.path.expanduser(file_name), file_size)
 
     file_size_dl = 0
     block_sz = 8192
