@@ -5,7 +5,7 @@
 
 import urllib2, zipfile,os.path,distutils.dir_util,shutil,ssl
 
-url = "https://verge-blockchain.com/blockchain5/installer_blockschain_v5.zip"
+url = "https://verge-blockchain.com/blockchain5/installer_blockchain_v5.zip"
 file_name = "~/Desktop/verge_blockchain.zip"
 dir_name = "~/Desktop/temp_verge/"
 app_support_folder = "~/Library/Application Support/VERGE/"
