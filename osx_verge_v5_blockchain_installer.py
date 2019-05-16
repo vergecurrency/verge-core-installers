@@ -3,12 +3,13 @@
 # Copyright (C) 2017  Halim Burak Yesilyurt <h.burakyesilyurt@gmail.com>
 # If you like my work and tip me, my XVG address: DQWikNX6mE3pTM617C4A8PHvT3QKApQUdW
 
-import urllib2, zipfile,os.path,distutils.dir_util,shutil
+import urllib2, zipfile,os.path,distutils.dir_util,shutil,ssl
 
 url = "https://verge-blockchain.com/blockchain5/installer_blockschain_v5.zip"
 file_name = "~/Desktop/verge_blockchain.zip"
 dir_name = "~/Desktop/temp_verge/"
 app_support_folder = "~/Library/Application Support/VERGE/"
+ssl._create_default_https_context = ssl._create_unverified_context
 
 '''
 Function : downloadAndSaveVergeBlockchain
