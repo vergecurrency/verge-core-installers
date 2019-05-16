@@ -21,10 +21,10 @@ REM Make directory for Blockchain data in Verge operating directory in the insta
 md %userprofile%\AppData\Roaming\verge\
 
 REM This line and the line after is included but ignored because it is slow downloading but may be required for Win7
-REM powershell -Command "Invoke-WebRequest https://verge-blockchain.com/blockchain5/installer_blockschain_v5.zip -OutFile c:\windows\temp\verge\XVGBlockChain.zip"
+REM powershell -Command "Invoke-WebRequest https://verge-blockchain.com/blockchain5/installer_blockchain_v5.zip -OutFile c:\windows\temp\verge\XVGBlockChain.zip"
 
 REM Command to download the files
-powershell Start-BitsTransfer https://verge-blockchain.com/blockchain5/installer_blockschain_v5.zip c:\windows\temp\verge\XVGBlockChain.zip
+powershell Start-BitsTransfer https://verge-blockchain.com/blockchain5/installer_blockchain_v5.zip c:\windows\temp\verge\XVGBlockChain.zip
 echo ****Once the download has finished the blue box with yellow text will disappear above and you will see this message, press any key to continue****
 pause
 cls
